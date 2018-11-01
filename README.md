@@ -4,18 +4,18 @@ Classes in C++ can be extended, creating new classes which retain characteristic
 The code here creates a base class, a derived class from the base class and demonstrates how an object of derived class can access a method in base class.
 
 C++ inheritance rules:
-Derived class can access all public and protected members and functions of base class
-Constructor of base class won't be copied to derived class
-Constructors, assignment and destructors are never inherited
-If base class has a default constructor it is automatically called.
-If derived class member function of same name overrides the base class function, access base class function as: baseclass::basefunction(); 
+1) Derived class can access all public and protected members and functions of base class.
+2) Constructor of base class won't be copied to derived class.
+3) Constructors, assignment and destructors are never inherited.
+4) If base class has a default constructor it is automatically called.
+5) If derived class member function of same name overrides the base class function, access base class function as: baseclass::basefunction(); 
 
 
 A publicly derived class inherits access to every member of a base class except:
-its constructors and its destructor
-its assignment operator members (operator=)
-its friends
-its private members
+1) its constructors and its destructor
+2) its assignment operator members (operator=)
+3) its friends
+4) its private members
 
 
 Include return statement in the definition of called functions 
