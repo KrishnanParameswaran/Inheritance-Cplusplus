@@ -18,14 +18,6 @@ its friends
 its private members
 
 
-Functions to access members of a class:
-
-Access	                    public	    protected	    private
-members of the same class	yes	        yes	            yes
-members of derived class	yes	        yes	            no
-not members	                yes	        no	            no
-
-
 Include return statement in the definition of called functions 
 Ensure to indicate the return type for all prototyping and definitions of functions
 Return type and return statement are not mandatory for main function 
