@@ -1,3 +1,4 @@
+###Inheritance
 
 Classes in C++ can be extended, creating new classes which retain characteristics of the base class. This process is known as inheritance and involves a base class and a derived class: The derived class inherits the members of the base class, on top of which it can add its own members.
 
